@@ -35,30 +35,7 @@ You can obtain the MONGO_URI after create a collectoin on [mongodb atlas](https:
   
 </p>
 
-## Info
 
--   This is a blogging PWA with user authentication and authorization. There is also a social login option, to login using your Twitter or Google accounts. The blog posts are displayed in the reverse chronological order by default.
--   There is no exploitation of data, as the app only requires access to your accounts to fetch your unique ID for authentication/authorization purposes, and no personal details(except your registred user name on the social account) is used by the application.
--   The frontend of the app is built using React and I have used Bootstrap classes for styling the compnents in addition to my local CSS styles.
--   It is a blog app that lets users read the existing blog posts without logging in, and lets them share their thoughts using the anonymous comment section.
--   Each comment has a unique jdenticon icon to represent the user who commented anonymously
--   There is also a profanity filter to disallow usage of certain NSFW words in the comments' section. This is not an attempt to hinder freedom of speech, but instead it is a necessary aid to prevent misuse of the platform by nefarious users.
--   In order to write a new blog post, the user has to login using one of the social media login options provided. The react-social-login package is being used to provide the user authentication and authorization.
--   It has been deployed using Heroku's free tier and the Mongodb Atlas's cloud service is used for the database service. The access to the database is restricted to only 1 authorised user, and as mentioned earlier, there is no personal user data stored in it.
--   The rich editor used is the CKEditor 5's React WYSIWYG component (What You See Is What You Get) with a toolkit that supports bold, italics, hyperlinks, image embeds, indentations, blockquotes, video embeds, lists (ordered and unordered) and options to undo and redo changes as needed.
--   The application currently has more then 60 registered users, you can check out the app [here](https://mern-blog-it.herokuapp.com/) or by using the link in the description section
-
-
-## Potential Improvements
-
--   A UX refactor.
--   Dashboard implementation for all registered users.
--   More social login options including the likes of Github, Facebook, Amazon or Apple.
--   Fuzzy Search implementation.
--   Integrations with popular blogging platforms like Medium or dev.to, to import already published articles.
--   A system to 'like' or upvote potentially useful articles.
-
-Any more suggestions are always welcome in the PRs!
 
 ## Technologies Used
 
@@ -74,3 +51,7 @@ Some of the technologies used in the development of this web application are as 
 -   [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/): A popular framework for building responsive, mobile-first sites.
 
 It can be noted that React can be swapped out in favor of any other popular frontend framework like Vue, Angular, Svelte or Ember. The server side can be implemented using Deno/Koa, flask/Django and similarly the data can also be modelled using the similar idea but with a SQL type DB like PS-SQL or MSSQL.
+
+If you want to contact me, you can reach me through below handles.
+
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/romit5075)
